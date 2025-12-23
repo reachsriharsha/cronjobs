@@ -40,7 +40,7 @@ fi
 echo "Activating virtual environment..."
 source "$VENV_DIR/bin/activate"
 
-
+source /home/sharsha/.local/bin/env
 # Check if uv is installed
 if ! command -v uv &> /dev/null; then
     echo "ERROR: uv is not installed or not in PATH"
